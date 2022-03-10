@@ -18,7 +18,7 @@ We will try to develop an **mobile app** which will allow farmers to just take p
 
 Data Collection:
 
-* Dataset was collected from kaggle.com
+* Dataset was collected from [here](https://www.kaggle.com/arjuntejaswi/plant-village).
 
 Data Cleaning and Processing:
 
