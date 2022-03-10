@@ -4,7 +4,7 @@ Repository for SEM-4 project
 
 ### **About**
 
-The goal of this project is to show an example case of how Deep learning(Machine Learning + Data Science + AI) can be used in agriculture domain to benefit farmers.
+The goal of this project is to show an example case of how **Deep learning(Machine Learning + Data Science + AI)** can be used in agriculture domain to benefit farmers.
 
 ### **The Problem**
 
