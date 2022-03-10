@@ -8,9 +8,7 @@ The goal of this project is to show an example case of how Deep learning and AI 
 
 ### **The Problem**
 
-Farmers who grow pototoes are facing economic loses every year because of diseases that can happen to a potato plant. There are two common disesse that can happen to a potato plant known as
-
-**Early Blight** and **Late Blight**.Early Blight caused by fungus and Late Blight is caused by a specific microorganism. If these diseses can be detected early then farmers can apply appropriate treatment and can save lots of wste and prevent economic loses. The treatment for both cases are little different, so it is important that farmers accurately identify what kind of disease is there in that potato plant.
+Farmers who grow pototoes are facing economic loses every year because of diseases that can happen to a potato plant. There are two common disesse that can happen to a potato plant known as **Early Blight** and **Late Blight**.Early Blight caused by fungus and Late Blight is caused by a specific microorganism. If these diseses can be detected early then farmers can apply appropriate treatment and can save lots of wste and prevent economic loses. The treatment for both cases are little different, so it is important that farmers accurately identify what kind of disease is there in that potato plant.
 
 ### **What we will do**
 
