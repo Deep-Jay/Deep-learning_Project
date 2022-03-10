@@ -16,47 +16,47 @@ We will try to develop an **mobile app** which will allow farmers to just take p
 
 ### **Steps we will follow**
 
-Data Collection
+Data Collection:
 
 * Dataset was collected from kaggle.com
 
-Data Cleaning and Processing
+Data Cleaning and Processing:
 
 * Converting images into numeric arrays with tensorflow dataset.
 * Optimising performance with prefetch and cache with tensorflow dataset.
 * Generating extra data with data augmentation(Resize, Recsale, Zoom etc.) to increase performance & accuracy of the model.
 
-Model Building
+Model Building:
 
 * Building a CNN(Convolutional Neural Network) with the help of Tensorflow library of python.
 * Building several models by tuning the hyperparameters to find the best performing model.
 
-Saving Model to disk
+Saving Model to disk:
 
 * Saving the models to disk, which is to be used later.
 * Comparing all saved models to find the best performing model.
 
-Backend Server
+Backend Server:
 
 * Building server with the help of FastAPI, a python library.
 * Connects the built model with an interface where we upload a file and get results predicted by the model.
 
-Frontend Website
+Frontend Website:
 
 * Build from HTML, CSS, Bootstrap and JavaScript.
 * Provides an interface which user can easily understand and interact.
 
 > For Mobile App
 
-Model Optimisation
+Model Optimisation:
 
 * Reduce model size with the help of Tensorflow Lite for mobile app.
 
-Deployment in GCP(Google Cloud Platform)
+Deployment in GCP(Google Cloud Platform):
 
 * Optimised model is deployed in cloud server and waiting for images to predict results.
 
-Mobile App
+Mobile App:
 
 * Developed in React Native.
 * Takes photo and sends to GCP(Google Cloud Platform) where the model predicts and results are sent and show in the app.
