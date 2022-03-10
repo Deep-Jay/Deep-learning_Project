@@ -52,7 +52,7 @@ Model Optimisation
 
 * Reduce model size with the help of Tensorflow Lite for mobile app
 
-Deployment in GCP
+Deployment in GCP(Google Cloud Platform)
 
 * Optimised model is deployed in cloud server and waiting for images to predict results
 
