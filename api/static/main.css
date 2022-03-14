@@ -1,0 +1,287 @@
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-image: url("../static/bg_img/EzrvAD.jpg");
+    font-family: 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fadeInAnimation ease 0.3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+}
+h1 {
+    text-align: center;
+    padding-top: 0px;
+    font-size: 300%;
+}
+
+#button-para {
+    text-align: center;
+}
+
+#index-para {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(47, 0, 255);
+}
+
+#error-para {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+input[type=file]::-webkit-file-upload-button {
+    color: rgb(0, 0, 0);
+    background-color: rgba(256, 256, 256, 0.1);
+    border: 2px solid rgb(64, 64, 64) ;
+    padding: 5px;
+    border-radius: 0.4em;
+    font-size: small;
+    font-family:'Times New Roman', Times, serif
+}
+
+input[type=file]::-webkit-file-upload-button:hover {
+    background-color: rgb(64, 64, 64);
+    color: rgb(255, 255, 255);
+}
+
+#label-file {
+    color: rgb(125, 0, 250);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+#uploadImage {
+    width: 250px;
+    height: auto;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+#uploadDiv {
+    border: 2px solid rgb(178, 2, 247);
+    width: 255px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .4em;
+    padding: 5px;
+}
+
+#uploadPreview {
+    width: 275px;
+    height: auto;
+}
+
+#submit-btn {
+    color: rgb(12, 80, 5);
+    background-color: rgba(256, 256, 256, 0);
+    border: 2px solid rgb(12, 80, 5);
+    border-radius: 0.4em;
+    padding: 5px;
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#submit-btn:hover {
+    background-color: rgb(12, 80, 5);
+    color: rgb(255, 254, 254);
+}
+
+#refresh-btn {
+    color: rgb(9, 92, 170);
+    background-color: rgba(256, 256, 256, 0);
+    border: 2px solid rgb(9, 92, 170);
+    border-radius: 0.4em;
+    padding: 5px;
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+}    
+
+#refresh-btn:hover {
+    background-color: rgb(9, 92, 170);
+    color: rgb(255, 255, 255);
+}
+
+#back-btn {
+    color: white;
+    background-color: rgb(16, 0, 245);
+    border: 2px solid rgb(16, 0, 245);
+    border-radius: 0.4em;
+    padding: 10px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#back-btn:hover {
+    background-color: rgb(0, 245, 245);
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 245, 245);
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(256, 256, 256, 0.4);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #111;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+#received-image {
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: auto;
+}
+
+#received-para {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#base-image {
+    width: 50px; 
+    height: auto; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#error-image {
+    margin-top: 80px;
+    width: 250px;
+    height: auto; 
+    height: auto; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#base-para {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#contribute {
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#contro-logo{
+    width: auto;
+    height: 30px;
+    border-radius: 15px;
+    float: left;
+    margin-left: 35px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+table, th, td {
+    border-top: 1px solid;
+    border-collapse: collapse;
+    
+    text-align: center;
+    width: 450px;
+    font-size: 20px;
+    background-color: rgba(256, 256, 256, 0.2);
+}
+
+th, td {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 4px;
+}
+
+#right-border {
+    border-right: 1px solid;
+}
+
+#runtime {
+    background-color: rgba(0, 255, 128, 0.651);
+    padding: 2px;
+    border-radius: 0.4em;
+    font-size: larger;
+}
+
+#error-msg {
+    background-color: rgba(255, 0, 0, 0.863);
+    padding: 4px;
+    border-radius: 0.4em;
+    color: white;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/main.css">
+    {% block head %}{% endblock %}
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <br><br>
+        <p id="base-para">Liked our work?<br>Give it a Star on Github</p>
+        <a href="https://github.com/Deep-Jay/Deep-learning_Poject", target="_blank">
+            <img id="base-image" src="../static/github.svg" alt="source-code", title="Source Code">
+        </a>
+        <br><br>
+        <p id="base-para">
+            <span id="contribute">Contributers</span><br><br>
+            <img src="../static/Nagara.png", id="contro-logo", onclick="window.location='https://github.com/Deep-Jay'">
+            <span style="float: left; margin-top: 5px; margin-left: 20px;">Jaydeep Nath</span><br><br>
+            <img id="contro-logo", src="../static/github.svg",  onclick="window.location='https://github.com/sskbond007'">
+            <span style="float: left; margin-top: 3.5px; margin-left: 20px;", >Sayan Khanra</span>
+        </p>
+        </div>
+        <div id="main">
+            <span style="font-size:30px;cursor:pointer; float: left;" onclick="openNav()">&#9776;</span>
+        {% block body %}{% endblock %}
+    </div>
+
+    <script type="text/javascript" src="../static/main.js">
+        
+    </script>
+    
+</body>
+</html>

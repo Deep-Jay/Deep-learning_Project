@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Disease Prediction</title>
+{% endblock %}
+
+{% block body %}
+    <h1><u>POTATO PLANT DISEASE IDENTIFICATION</u></h1>
+    <p id="index-para" class="center"><b>Select your image below and click the EXECUTE button</b></p>
+    <br>
+    <form  action = "/prediction", method="post", enctype="multipart/form-data">
+        <label id="label-file",for="input" class="center">DRAG & DROP or</label>
+        <br>
+        <div id="uploadDiv">
+            <input type="file", id="uploadImage", name="file", onchange="PreviewImage();" required>
+        </div>
+        <p id="button-para">
+            <input type="submit" id="submit-btn", value="EXECUTE">   
+            <button type="button", id="refresh-btn", onClick="window.location.reload();">CLEAR</button>
+        </p><br>
+    <img class="center", id="uploadPreview"/>
+    </form>
+    <br>
+    <script type="text/javascript">
+        
+    </script>
+{% endblock %}
