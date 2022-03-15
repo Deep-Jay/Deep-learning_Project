@@ -79,7 +79,7 @@ async def handel_form(request: Request, file: UploadFile = File(...)):
             predictions = MODEL.predict(img_batch)
 
             predicted_class = CLASS_NAMES[np.argmax(predictions[0])]
-            confidence = np.max(predictions[0])
+            confidence = round(np.max(predictions[0])*100,2) 
             executionTime = (time.time() - startTime)*1000
             executionTime = round(executionTime, 3)
             return templates.TemplateResponse(

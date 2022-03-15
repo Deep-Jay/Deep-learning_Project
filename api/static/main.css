@@ -45,7 +45,7 @@ h1 {
 #error-para {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(0, 0, 0);
 }
 
@@ -268,7 +268,7 @@ table, th, td {
     text-align: center;
     width: 450px;
     font-size: 20px;
-    background-color: rgba(256, 256, 256, 0.2);
+    background-color: rgb(256, 256, 256);
 }
 
 th, td {
@@ -282,15 +282,20 @@ th, td {
 }
 
 #runtime {
-    background-color: rgba(0, 255, 128, 0.651);
+    background-color: rgb(3, 175, 89);
     padding: 2px;
     border-radius: 0.4em;
-    font-size: larger;
+    font-size: x-large;
+    color: white;
 }
 
 #error-msg {
-    background-color: rgba(255, 0, 0, 0.863);
-    padding: 4px;
+    background-color: rgb(255, 0, 0);
+    padding: 6px;
     border-radius: 0.4em;
     color: white;
+}
+
+#result-tb {
+    border: 2px solid;
 }
