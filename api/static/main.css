@@ -71,12 +71,6 @@ input[type=file]::-webkit-file-upload-button:hover {
     color: rgb(255, 255, 255);
 }
 
-#label-file {
-    color: rgb(125, 0, 250);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: large;
-}
-
 #uploadImage {
     width: 250px;
     height: auto;
