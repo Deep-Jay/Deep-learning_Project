@@ -38,7 +38,7 @@ h1 {
 #index-para {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(47, 0, 255);
 }
 
@@ -193,7 +193,7 @@ input[type=file]::-webkit-file-upload-button:hover {
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 350px;
     height: auto;
 }
 
