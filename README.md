@@ -52,11 +52,11 @@ Model Optimisation:
 
 * Reduce model size with the help of Tensorflow Lite for mobile app.
 
-Deployment in GCP(Google Cloud Platform):
+Deployment in Heroku:
 
 * Optimised model is deployed in cloud server and waiting for images to predict results.
 
 Mobile App:
 
-* Developed in React Native.
-* Takes photo and sends to GCP(Google Cloud Platform) where the model predicts and results are sent and show in the app.
+* Developed in Fluter.
+* Model is in-built in the app using Tensorflow Lite.
