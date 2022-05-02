@@ -55,6 +55,7 @@ Model Optimisation:
 Deployment in Heroku:
 
 * Optimised model is deployed in cloud server and waiting for images to predict results.
+* Website Link - https://potdispred.herokuapp.com/
 
 Mobile App:
 
