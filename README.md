@@ -1,4 +1,4 @@
-# Deep-learning_Poject
+# Deep-learning_Project
 
 Repository for SEM-4 project
 
