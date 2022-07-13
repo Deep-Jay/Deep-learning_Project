@@ -61,4 +61,8 @@ Mobile App:
 
 * Developed in Fluter.
 * Model is in-built in the app using Tensorflow Lite.
-![alt text](https://github.com/Deep-Jay/Deep-learning_Project/blob/main/api/static/appSplash.jpg | width=50) ![alt text](https://github.com/Deep-Jay/Deep-learning_Project/blob/main/api/static/appSplash1.jpg?raw=true)
+
+
+Splash Screen | Navigation Menu
+:----------------------------------------:|:---------------------------------------------:
+![alt text 1](https://github.com/Deep-Jay/Deep-learning_Project/blob/main/api/static/appSplash.jpg?raw=true) | ![alt text 2](https://github.com/Deep-Jay/Deep-learning_Project/blob/main/api/static/appSplash1.jpg?raw=true)
