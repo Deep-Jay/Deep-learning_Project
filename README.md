@@ -56,8 +56,10 @@ Deployment in Heroku:
 
 * Optimised model is deployed in cloud server and waiting for images to predict results.
 * Website Link - https://potdispred.herokuapp.com/
-
+![alt text](https://github.com/Deep-Jay/Deep-learning_Project/blob/main/api/static/websiteFront.jpg?raw=true)
 Mobile App:
 
 * Developed in Fluter.
 * Model is in-built in the app using Tensorflow Lite.
+![alt text](https://github.com/Deep-Jay/Deep-learning_Project/blob/main/api/static/appSplash.jpg?raw=true)
+![alt text](https://github.com/Deep-Jay/Deep-learning_Project/blob/main/api/static/appSplash1.jpg?raw=true)
