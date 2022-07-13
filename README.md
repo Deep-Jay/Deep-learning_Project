@@ -61,7 +61,7 @@ Mobile App:
 
 * Developed in Fluter.
 * Model is in-built in the app using Tensorflow Lite.
-
+* Download app form here - https://github.com/Deep-Jay/Dispred/releases/download/v1.1.0/Dispred.apk
 
 Splash Screen | Navigation Menu
 :----------------------------------------:|:---------------------------------------------:
